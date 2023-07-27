@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PlayMusic</title>
+    <meta name="description" content="Program to listen music on your computer">
+    <meta name="keywords" content="listen, music, computer">
+    <meta name="author" content="MICHAEL ANDRE FRANIATTE">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../extra/w3.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../custom/custom.css" />
+    <link rel="stylesheet" href="../extra/rgpd.css" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.css">
+    <link rel="stylesheet" href="../extra/spinner.css" />
+
+</head>
+
+<body id="page-top" onLoad="window_onload()">
+
+    <div class="back">
+
+    <div class="fa fa-spinner fa-spin spinner show"></div>
+
+    <span aria-label="No Cookies!" class="infobulle">&#8505;</span>
+
+    <button onclick="topFunction()" id="TopBtn" aria-label="Go to top">▲</button>
+
+    <div id="banner"><img src="../img/favicon.jpg" /><div id="closebanner">✖</div><div id="textbanner">This website respect entirely the life privacy. No cookies are stored on any database or any file or any webbrowser.</div><div id="button1banner">I understand</div><div id="button2banner">I don't understand</div></div>
+
+    <div class="top w3-center">
+        <a href="../#PlayMusicOfficial"><img class="logo" src="pm.png" alt="pm"></a>
+        <div class="title colored">
+            <h2>PlayMusic</h2>
+            <h1>Your Music Player</h1>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="w3-row first-section">
+            <div class="w3-container">
+                <h3 class="w3-center colored"><b>Listen Music on Your Computer</b></h3>
+                <p>
+                    <b>T</b>he program is made for listen all your music present on your computer well ordered in folders. It's simple to use and very intuituve. Click on the thumbnail to change music. Choose if you want to listen music of an artist or all artists. It loops through all your music at end of one. Let's see...
+                </p>
+            </div>
+        </div>
+
+        <div class="w3-center row">
+            <div class="column">
+                <img src="../img/playmusic-main.png" alt="playmusic-main" width="50%" onclick='img_box("../img/playmusic-main.png")'>
+            </div>
+        </div>
+
+        <div class="w3-row second-section">
+            <div class="w3-container">
+                <h3 class="w3-center colored"><b>Considerations About the Program</b></h3>
+                <p>
+                    <b>T</b>he program is simple to use and can be used on a simple pocket PC. There are a audio visualization of sounds and an equalizer for tweak it. The sound is the best sound you can ear from your MP3 files. The thumbnails are in JPG format, and must corresponds to the same names of your MP3 files. The MP3 files and thumbnails can be retrieved from the program NASH.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bottom w3-center">
+        <img src="../img/favicon.png" />
+        <br>
+        <b class="white">MAF</b>
+        <br>
+        <b class="colored">©1999-2023</b>
+    </footer>
+
+    </div>
+
+    <script type="text/javascript">
+        function window_onload() {
+            var sc = document.createElement('script');
+            sc.src = "../custom/custom.js";
+            document.getElementsByTagName('head')[0].appendChild(sc);
+   		    document.getElementsByClassName("spinner")[0].classList.remove("show");
+   		    document.getElementsByClassName("spinner")[0].classList.add("hide");
+  		    $(".spinner").removeClass("show");
+   		    $(".spinner").addClass("hide");
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayMusic", "PlayMusic\PlayMusic.csproj", "{3331C6A1-A104-4F5E-8087-809AD6AEB153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3331C6A1-A104-4F5E-8087-809AD6AEB153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3331C6A1-A104-4F5E-8087-809AD6AEB153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3331C6A1-A104-4F5E-8087-809AD6AEB153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3331C6A1-A104-4F5E-8087-809AD6AEB153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42952ACB-5B65-42B6-B6E0-06514AC51B10}
+	EndGlobalSection
+EndGlobal
